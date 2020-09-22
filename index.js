@@ -12,6 +12,7 @@ const OAUTH_ENDPOINT = "https://gateway.stackpath.com/identity/v1/oauth2/token";
     const url = core.getInput("url");
 
     const response = await fetch(OAUTH_ENDPOINT, {
+      method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
@@ -27,6 +28,7 @@ const OAUTH_ENDPOINT = "https://gateway.stackpath.com/identity/v1/oauth2/token";
     const purgeResponse = await fetch(
       `https://gateway.stackpath.com/cdn/v1/stacks/${stackId}/purge`,
       {
+        method: "POST",
         headers: {
           "Content-Type": "application/json",
           Authorization: `Bearer ${accessToken}`,
