@@ -11,7 +11,7 @@ inputs:
     description: "Stack ID from Stackpath"
     required: true
   url:
-    description: "Single URL or regex pattern for files to be purged"
+    description: "URL to be purged, with full protocol"
     required: true
 runs:
   using: "node12"

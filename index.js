@@ -47,6 +47,7 @@ const OAUTH_ENDPOINT = "https://gateway.stackpath.com/identity/v1/oauth2/token";
     );
     const purgeJson = await purgeResponse.json();
 
+    console.log("Purge response", purgeJson);
     console.log(`Purge ID: ${purgeJson.id}`);
     core.setOutput("Purge ID", purgeJson.id);
   } catch (error) {
