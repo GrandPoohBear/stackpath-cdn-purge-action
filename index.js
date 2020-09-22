@@ -1,5 +1,6 @@
 const core = require("@actions/core");
 const github = require("@actions/github");
+const fetch = require("node-fetch");
 
 const OAUTH_ENDPOINT = "https://gateway.stackpath.com/identity/v1/oauth2/token";
 
