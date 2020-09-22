@@ -1,5 +1,8 @@
 name: "Purge Stackpath CDN"
 description: "Purge files from a Stackpath CDN with credentials"
+branding:
+  icon: "trash-2"
+  color: "green"
 inputs:
   clientId:
     description: "Client ID for Stackpath API"
