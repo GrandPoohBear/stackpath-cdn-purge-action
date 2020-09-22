@@ -1,6 +1,6 @@
 {
   "name": "stackpath-cdn-purge-action",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "A Github action plug in to purge files from a Stackpath CDN",
   "main": "index.js",
   "scripts": {
