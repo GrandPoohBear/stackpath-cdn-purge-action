@@ -1,0 +1,23 @@
+{
+  "name": "stackpath-cdn-purge-action",
+  "version": "0.0.1",
+  "description": "A Github action plug in to purge files from a Stackpath CDN",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GrandPoohBear/stackpath-cdn-purge-action.git"
+  },
+  "author": "Andy Isaacson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GrandPoohBear/stackpath-cdn-purge-action/issues"
+  },
+  "homepage": "https://github.com/GrandPoohBear/stackpath-cdn-purge-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.5",
+    "@actions/github": "^4.0.0"
+  }
+}
